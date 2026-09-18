@@ -12,7 +12,7 @@ This document orients a data scientist (working with Alan Attie) to the resource
 Heureka Bench organizes work into **projects** — folders on disk under a workspace root, each with a `.heureka/` directory holding:
 
 - [**RATIONALE.md**](RATIONALE.md) — goal, background, approach, and success criteria for the project, plus an auto-generated list of linked papers.
-- **MEMORY.md** — persistent research memory: findings, decisions, issues, and next steps that carry across sessions.
+- [**MEMORY.md**](MEMORY.md) — persistent research memory: findings, decisions, issues, and next steps that carry across sessions.
 - **todos/** — a durable task list visible in the app's To-Dos view.
 - **plans/** — pre-registered, locked methodology files created when an analysis is planned before execution.
 - **experiments.jsonl** — a running log of analyses performed, with parameters, inputs, and outputs, for reproducibility.

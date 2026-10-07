@@ -1,7 +1,18 @@
 # Heureka Notes for Attie Lab
 
+Heureka Bench Links
+
 - [Heureka Labs](https://heurekalabs.co/)
 - [Heureka Labs Download](https://heurekalabs.co/download.html)
+
+My Links and Projects
+
+- [People](#people)
+- [Project `tryout`](#project-tryout)
+- [Project `attie-data`](#project-attie-data)
+- [References](#references)
+
+---
 
 ## People
 
@@ -21,7 +32,7 @@
 - [todos/](todos/) - Task list.
 - [experiments.jsonl](experiments.jsonl) - Running log of analyses performed.
 
-## Overview
+### Overview
 
 Heureka Bench uses
 Archimedes,
@@ -36,6 +47,12 @@ LLM-based reasoning models have enabled the development of agentic systems that 
 - ARC (AI Research Companion): The embedded scientific agent that queries the underlying biological model to perform data analysis, statistics, and handle local research files. [1]
 
 How does Archimedes compare to general language models like GPT-4 or Claude for biological data analysis?
+
+## [Project `Skill for Attie Data`](attie-data/)
+
+This was a project in Heureka to create a skill that would help the Attie Lab team find data more easily.
+Visit
+[attie-data](attie-data/) to see the skill and its documentation.
 
 ## References
 

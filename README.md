@@ -8,6 +8,7 @@
   - [`Analysis`](Analysis/)
   - [`Code`](Code/)
   - [`Data`](Data/)
+  - [`Documents`](Documents/)
   - [`Experiments`](Experiments/)
 - Heureka Bench Links
   - [Heureka Labs](https://heurekalabs.co/)
@@ -27,6 +28,9 @@
 - [Project `Learn About Heureka`](Projects/LearnAboutHeureka/)
 - [Project `Skill for Attie Data`](Projects/Skill4AttieData/)
 - Project `Heureka Bench` (this project)
+  - Git Integration of Heureka GitHub Project with GitHub Repo
+    - [`Analysis`](Analysis/) chat logs
+    - [`Documents` edited version](Documents/git-integration-plan.md) (**note forgotten step**)
 
 ## Overview
 

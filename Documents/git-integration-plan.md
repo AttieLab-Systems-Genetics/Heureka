@@ -1,7 +1,7 @@
 # Plan: Git Integration of Heureka GitHub Project with GitHub Repo
 
 Date: 2026-10-08
-Repo: https://github.com/AttieLab-Systems-Genetics/Heureka
+Repo: <https://github.com/AttieLab-Systems-Genetics/Heureka>
 Project: `~/Heureka Bench/Heureka GitHub`
 
 ## What was examined
@@ -31,35 +31,50 @@ Git directly in `~/Heureka Bench/Heureka GitHub`. No subfolder, no bare repo —
 ### One-time setup (5 steps)
 
 1. **Initialize git in the project root**
+
    ```
    cd ~/Heureka\ Bench/Heureka\ GitHub
    git init
    ```
+
 2. **Write `.gitignore`** (excludes Bench-internal state; keeps the repo clean):
+
    ```
    .heureka/
    .DS_Store
    ```
+
 3. **Add the remote** (SSH, verified working):
+
    ```
    git remote add origin git@github.com:AttieLab-Systems-Genetics/Heureka.git
    ```
+
 4. **Pull the remote history, keeping local untracked files**:
+
    ```
    git fetch origin
    git reset --mixed origin/main      # or origin/master — check with git remote show origin
    ```
+
    This adopts the remote commit as HEAD and stages the repo's files (README, attie-data/, etc.) without touching the empty local folders.
 5. **First commit + push of the integrated state**:
+
    ```
    git add .gitignore Documents/git-integration-plan.md
    git commit -m "Integrate Heureka GitHub project with remote repo"
    git push origin main
    ```
 
+**FORGOTTEN STEP**:
+Check `git status` to observe what files have been missed.
+If any, copy them over from previous version of the repo.
+They should not need to be added or pushed.
+
 ### Ongoing workflow (from within ARC)
 
 Just ask: *"commit and push my changes"* / *"pull the latest"*. ARC runs:
+
 - **Commit**: `git status` → stage named files → `git commit` (never `git add -A` while `.heureka/` is ignored — but the ignore rule makes `-A` safe here).
 - **Push**: `git push` (SSH, no prompts).
 - **Pull**: `git pull --rebase` (keeps linear history for a single-writer repo).
@@ -78,7 +93,7 @@ Just ask: *"commit and push my changes"* / *"pull the latest"*. ARC runs:
 ### Risks and mitigations
 
 | Risk | Mitigation |
-|---|---|
+| --- | --- |
 | Bench file browser chokes on `.git/` folder | Unlikely — it's a normal hidden dir; no action needed unless observed |
 | Accidental commit of huge data files to a notes repo | Keep this repo for notes/skills; large data lives in S3 per the attie-data data map |
 | Two writers (you + another machine) editing `attie-data/` | `git pull --rebase` before each commit; repo is small so conflicts are rare and cheap |

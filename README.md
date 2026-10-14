@@ -9,7 +9,7 @@ My Links and Projects
 
 - [People](#people)
 - [Project `tryout`](#project-tryout)
-- [Project `attie-data`](#project-attie-data)
+- [Project `attie-data`](#project-skill-for-attie-data)
 - [References](#references)
 
 ---
@@ -50,9 +50,9 @@ How does Archimedes compare to general language models like GPT-4 or Claude for 
 
 ## [Project `Skill for Attie Data`](attie-data/)
 
-This was a project in Heureka to create a skill that would help the Attie Lab team find data more easily.
+This was a project in Heureka to create a skill `attie-data` that would help the Attie Lab team find data more easily.
 Visit
-[attie-data](attie-data/) to see the skill and its documentation.
+[Attie Lab Data Map](https://github.com/AttieLab-Systems-Genetics/AttieLabData/blob/main/data_map.md).
 
 ## References
 

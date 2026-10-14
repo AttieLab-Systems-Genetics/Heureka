@@ -1,6 +1,6 @@
-## README for Local Heuraka Development
+# Projects
 
-This has material from the Heureka project created to help the Attie Lab team find data more easily.
+This has material from other Heureka Bench projects.
 
-- [Skills, Tools, and Apps](skills.md)
-- [Notes from meetings](notes.md)
+- [Project `Learn About Heureka`](LearnAboutHeureka/)
+- [Project `Skill for Attie Data`](Skill4AttieData/)

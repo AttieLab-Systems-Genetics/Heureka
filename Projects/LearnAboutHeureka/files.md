@@ -1,7 +1,7 @@
-## Files in the `tryout` Project
+## Files in the `LearnAboutHeureka` Project
 
 **Prompt:**
-What other files does Heureka have on the `tryout` project?
+What other files does Heureka have on the `LearnAboutHeureka` project?
 
 Besides `.heureka/RATIONALE.md`, the project currently contains the following:
 

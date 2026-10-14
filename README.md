@@ -1,16 +1,17 @@
 # Heureka Notes for Attie Lab
 
-Heureka Bench Links
-
-- [Heureka Labs](https://heurekalabs.co/)
-- [Heureka Labs Download](https://heurekalabs.co/download.html)
-
-My Links and Projects
-
 - [People](#people)
-- [Project `tryout`](#project-tryout)
-- [Project `attie-data`](#project-skill-for-attie-data)
+- [Overview](#overview)
 - [References](#references)
+- [Projects](#projects)
+- Heureka Bench Generated Folders
+  - [`Analysis`](Analysis/)
+  - [`Code`](Code/)
+  - [`Data`](Data/)
+  - [`Experiments`](Experiments/)
+- Heureka Bench Links
+  - [Heureka Labs](https://heurekalabs.co/)
+  - [Heureka Labs Download](https://heurekalabs.co/download.html)
 
 ---
 
@@ -21,21 +22,16 @@ My Links and Projects
 - [Pol Castellano Escuder](https://heurekalabs.co/about.html)
 - [John Denu](https://denulab.discovery.wisc.edu/staff/denu-john/)
 
-## Project `tryout`
+## [Projects](Projects/)
 
-- [resources.md](resources.md) - Resources and capabilities of Heureka.
-- [files.md](files.md) - Other files in the `tryout` project.
-- [tokens.md](tokens.md) - Token usage tracking.
-- [RATIONALE.md](RATIONALE.md) - Project goals.
-- [MEMORY.md](MEMORY.md) - Persistent research memory.
-- [plans/](plans/) - Pre-registered, locked methodology files.
-- [todos/](todos/) - Task list.
-- [experiments.jsonl](experiments.jsonl) - Running log of analyses performed.
+- [Project `Learn About Heureka`](Projects/LearnAboutHeureka/)
+- [Project `Skill for Attie Data`](Projects/Skill4AttieData/)
+- Project `Heureka Bench` (this project)
 
-### Overview
+## Overview
 
 Heureka Bench uses
-Archimedes,
+`Archimedes`,
 which is a proprietary multi-omics biology model
 trained on measured biological samples rather than published text.
 
@@ -43,16 +39,10 @@ LLM-based reasoning models have enabled the development of agentic systems that 
 
 ### Core Components in Heureka Bench
 
-- Archimedes: “A proprietary model trained on hundreds of thousands of real biological samples — not text — so Heureka can place, QC, and contextualize your data in ways a general LLM can't.”, as noted by Heureka Labs.
-- ARC (AI Research Companion): The embedded scientific agent that queries the underlying biological model to perform data analysis, statistics, and handle local research files. [1]
+- **Archimedes**: “A proprietary model trained on hundreds of thousands of real biological samples — not text — so Heureka can place, QC, and contextualize your data in ways a general LLM can't.”, as noted by Heureka Labs.
+- **ARC (AI Research Companion)**: The embedded scientific agent that queries the underlying biological model to perform data analysis, statistics, and handle local research files. [1]
 
-How does Archimedes compare to general language models like GPT-4 or Claude for biological data analysis?
-
-## [Project `Skill for Attie Data`](attie-data/)
-
-This was a project in Heureka to create a skill `attie-data` that would help the Attie Lab team find data more easily.
-Visit
-[Attie Lab Data Map](https://github.com/AttieLab-Systems-Genetics/AttieLabData/blob/main/data_map.md).
+Open question: **How does `Archimedes` compare to general language models like GPT-4 or Claude for biological data analysis?**
 
 ## References
 
@@ -60,8 +50,5 @@ Visit
 - [How to discover: A Heureka Labs experiment by Matthew Hirschey](https://handbook.heurekalabs.co/)
   - [About this Handbook](https://handbook.heurekalabs.co/about.html)
 - [mlbio-epfl/HeurekaBench: [ICLR 2026] A framework to "create benchmarks" and "evaluate AI co-scientists" in experimental data-driven real-world scientific research. · GitHub](https://github.com/mlbio-epfl/HeurekaBench)
-- [Skills for Scientific Discovery](https://heurekaskills.com/)
-- [Inside scientific benchmarks - Heureka Labs](https://www.heurekalabs.co/blog/inside-scientific-benchmarks/)
-- [lab-bench — Heureka Skills (harness info?)](https://heurekaskills.com/lab-bench/)
 - [Heureka Labs YouTube Channel](https://www.youtube.com/@Heureka-Labs)
   - [Heureka! Stories of Discovery with Matthew Hirschey](https://www.youtube.com/watch?v=y82wZem60Ks)`
